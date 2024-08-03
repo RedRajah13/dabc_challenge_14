@@ -1,2 +1,6 @@
 # dabc_challenge_14
 Module 14 - Javascript Homework
+
+In this challenge, I created an interactive web page using the data from a study on the bacteria found in belly buttons: https://robdunnlab.com/projects/belly-button-biodiversity/. By opening the web page in a browser from the index.html file, you can explore the data collected for each participant. The dropdown tool allows you to choose a participant, and when chosen, the sample's data will populate the Demographic Info panel and generate the bar chart and bubble graph. A link to the data source is found under the header of the page.
+
+The web page design is found in the app.js file in the static folder. In it, I used JavaScript notation to create functions for pulling the data for one sample from the metadata, building both charts, initializing the page load and populating the dropdown box, and listening for the event of a user choosing a new sample from the dropdown box. Additionally, when mousing over the data in each graph, pop-ups display the number and taxonomy of the type of bacteria that bar or bubble refers to.
